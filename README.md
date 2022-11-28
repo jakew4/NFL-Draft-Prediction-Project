@@ -2,7 +2,7 @@
 - Jacob Wang
 - 11/26/2022
 
-## Project Description: Using NFL Draft Combine player performance data from 2009-2019, predict whether or not a player will be drafted to an NFL team. 
+## Project Description: Using NFL Draft Combine player performance data from 2009-2019, create the best model to predict whether or not a player will be drafted to an NFL team. 
 
 # Data Dictionary 
 
@@ -48,4 +48,24 @@ Drafted | Was the player drafted? (Yes/No)
 * Naturally, as BMI increased, so did bench press reps
 * Those with above average bench press reps for their BMI tended to get drafted over others 
 
-# 
+# Classification Modeling
+* Tested out and tuned several different classification models to see which models had strongest performance 
+  - KNeighbors
+  - Decision Tree
+  - Random Forests
+  - Logistic Regression
+  - adaBoost
+  - LightGBM
+  - XGBoost
+  - Gradient Boosting
+* Evaluating classification models
+  - NFL teams prioritize minimizing false positives (bad draft picks) so other than general model accuracy our most relevant metric is precision
+  - Top 3 performers:
+    - Tuned adaBoost Model - Precision: 0.81, Recall: 0.93, Testing accuracy: 0.83, f1-score: 0.87
+    - Tuned XGBoost Model - Precision: 0.79, Recall: 0.98, Testing accuracy: 0.83, f1-score: 0.87
+    - Baseline GradientBoost Model - Precision: 0.80, Recall: 0.97, Testing Accuracy: 0.82, f1-score: 0.88
+
+# Recommended Production Model: 
+* The Tuned adaBoost Model would best suit the business needs of NFL teams looking to improve their draft results. 
+* While other models had similar precision scores as the Tuned adaBoost model, this model outperformed the other models in the rest of classification metrics such as recall, f-1 score, and testing accuracy. 
+* The Tuned adaBoost model minimized false positives as much as possible and still had a respectable recall score, allowing NFL teams to also minimize the amount of missed good draft picks. 
