@@ -2,7 +2,7 @@
 - Jacob Wang
 - 11/26/2022
 
-## Project Description: Using NFL Combine player data from 2009-2019, predict whether or not a player will be drafted.
+## Project Description: Using NFL Draft Combine player performance data from 2009-2019, predict whether or not a player will be drafted to an NFL team. 
 
 # Data Dictionary 
 
@@ -25,3 +25,26 @@ Player Type | Player's specialty (offense/defense)
 Position Type | Player's position type
 Position | Player's position
 Drafted | Was the player drafted? (Yes/No)
+
+# Explanatory Visuals
+
+## Overview of Feature Correlation
+![nflHeatMap](https://user-images.githubusercontent.com/112730629/204176763-d917852a-9212-43e8-b2d6-ef0651b2c23b.png)
+* Many strong relationships between our features, most have to do with weight and event times 
+* Weight and longer event times/bench press reps very strongly positively correlated 
+
+## 40-yd Dash Times vs. Drafted
+![40timevsDrafted](https://user-images.githubusercontent.com/112730629/204178480-8b1ef4e6-4c46-4abd-8300-2b804b1d8296.png)
+* Players who were drafted were, on average, a little quicker than those who were not drafted
+* Fast 40-yd dash time alone did not guarantee a draft pick 
+
+## 40-yd Dash Time by Position Type
+![40byPosType](https://user-images.githubusercontent.com/112730629/204183687-c2cd59c9-31d9-4db0-8b38-a4e1b0e40cce.png)
+* Backs and receivers were quickest, followed by linebackers and special teams
+* Defensive linemen were much quicker than offensive linemen 
+
+## Bench Press Reps vs BMI by Draft Status
+![benchBMIdrafted](https://user-images.githubusercontent.com/112730629/204183934-c919ee67-ebc7-4728-b5ec-1a1cdd6887f3.png)
+* Naturally, as BMI increased, so did bench press reps
+* Those with above average bench press reps for their BMI tended to get drafted over others 
+
