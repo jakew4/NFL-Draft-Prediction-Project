@@ -40,7 +40,7 @@ Drafted | Was the player drafted? (Yes/No)
 
 ## 40-yd Dash Time by Position Type
 ![40byPosType](https://user-images.githubusercontent.com/112730629/204183687-c2cd59c9-31d9-4db0-8b38-a4e1b0e40cce.png)
-* Backs and receivers were quickest, followed by linebackers and special teams
+* Defensive backs and running backs/receivers were quickest, followed by linebackers and special teams
 * Defensive linemen were much quicker than offensive linemen 
 
 ## Bench Press Reps vs BMI by Draft Status
@@ -48,3 +48,4 @@ Drafted | Was the player drafted? (Yes/No)
 * Naturally, as BMI increased, so did bench press reps
 * Those with above average bench press reps for their BMI tended to get drafted over others 
 
+# 
