@@ -2,7 +2,7 @@
 - Jacob Wang
 - 11/26/2022
 
-## Project Description: Using NFL Draft Combine player performance data from 2009-2019, create the best model to predict whether or not a player will be drafted to an NFL team. 
+## Project Description: Using NFL Draft Combine player performance data from 2009-2019, create a machine learning model to predict whether or not a player will be drafted to an NFL team. 
 
 # Data Dictionary 
 
