@@ -5,7 +5,7 @@
 ![NFL_Draft_logo svg](https://user-images.githubusercontent.com/112730629/221983779-bf19c33f-053b-40bc-b332-4b248ef790e5.png)
 
 
-## Project Description: Using NFL Draft Combine player performance data from 2009-2019, create a machine learning model to predict whether or not a player will be drafted to an NFL team. 
+## Project Description: Using NFL Draft Combine player performance data from 2009-2019, create a machine learning model to predict as accurately as possible whether or not a player will be drafted to an NFL team. 
 
 # Data Dictionary 
 
