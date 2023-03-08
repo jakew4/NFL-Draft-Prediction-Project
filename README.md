@@ -1,6 +1,6 @@
 # NFL-Draft-Prediction-Project
-- Jacob Wang
-- 11/26/2022
+- Author: Jacob Wang
+- Created: 11/26/2022
 
 ![NFL_Draft_logo svg](https://user-images.githubusercontent.com/112730629/221983779-bf19c33f-053b-40bc-b332-4b248ef790e5.png)
 
