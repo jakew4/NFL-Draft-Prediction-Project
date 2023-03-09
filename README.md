@@ -61,6 +61,7 @@ Drafted | Was the player drafted? (Yes/No)
   - LightGBM
   - XGBoost
   - Gradient Boosting
+* Applied principal component analysis (PCA) to data in order to determine whether better results could be obtained with dimension reduction. However, all classification metrics declined as a result of PCA.  
 * Evaluating classification models
   - NFL teams prioritize minimizing false positives (bad draft picks) so other than general model accuracy our most relevant metric is precision
   - Top 3 performers:
